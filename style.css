@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-item {
+    margin: 10px;
+    text-align: center;
+}
+
+.foto-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tautan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tautan li {
+    margin-bottom: 10px;
+}
+
+.tautan a {
+    text-decoration: none;
+    color: #333;
+}
+
+.video iframe {
+    width: 100%;
+    height: 360px;
+}
